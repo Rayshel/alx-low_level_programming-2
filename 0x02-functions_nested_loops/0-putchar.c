@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * main - Prints _putchar followed by a new line 
+ * main - Prints _putchar followed by a new line
  *
- * Description: prints _putchar
+ * Description: Prints _putchar followed by a new line
  *
- * Return: Always 0
+ * Return: Always returns 0
  */
 int main(void)
 {
