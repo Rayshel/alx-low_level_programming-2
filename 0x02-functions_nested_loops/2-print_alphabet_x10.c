@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -6,23 +5,19 @@
  *
  * Description:  prints 10 times the alphabet, in lowercase, followed by a new line
  *
- * Return: void
+ * Return: always 0
  */
-void print_alphabet_x10(void); int main(void)
+void print_alphabet_x10(void)
 {
-	int round = 0;
-	char letter = 'a';
+	char x;
+	char y;
 
-	while (round < 10)
+	for (y = 0; y <= 9; y++)
 	{
-		letter = 'a';
-		while (letter <= 'z')
+		for (x = 'a'; x <= 'z'; x++)
 		{
-			putchar(letter);
-			letter++;
+			_putchar(x);
 		}
-		putchar('\n');
-
-		round++;
+		_putchar('\n');
 	}
 }
