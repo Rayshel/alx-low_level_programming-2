@@ -4,8 +4,9 @@
 /**
  * main - Prints _putchar followed by a new line 
  *
- * Return: Always returns 0
+ * Description: prints _putchar
  *
+ * Return: Always 0
  */
 int main(void)
 {
