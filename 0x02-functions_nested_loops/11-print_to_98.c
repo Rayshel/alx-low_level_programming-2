@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 #include "6-abs.c"
-
 /**
  * print_to_98 - print all natural numbers from n to 98
  *
+ * Description: n is a natural number
  */
 void print_to_98(int n)
 {
