@@ -5,18 +5,18 @@
  *
  * Description:  prints 10 times the alphabet, in lowercase, followed by a new line
  *
- * Return: always 0
+ * Return: void
  */
 void print_alphabet_x10(void)
 {
-	char x;
-	char y;
+	char i;
+	char h;
 
-	for (y = 0; y <= 9; y++)
+	for (h = 0; h <= 9; h++)
 	{
-		for (x = 'a'; x <= 'z'; x++)
+		for (i = 'a'; i <= 'z'; i++)
 		{
-			_putchar(x);
+			_putchar(i);
 		}
 		_putchar('\n');
 	}
