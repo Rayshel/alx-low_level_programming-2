@@ -6,20 +6,24 @@
  */
 int main(void)
 {
-	int i = 0;
-	long int a = 0, b = 1, next;
-	while (i < 50)
+	int counter = 2;
+	long int a = 1;
+	long int b = a + 1;
+	long int c = a + b;
+
+	printf("%ld, %ld, ", a, b);
+	while (counter < 50)
 	{
-		next = a + b;
+		printf("%ld", c);
+		counter++;
 		a = b;
-		b = next;
-		printf("%lu", next);
-		if (i < 49)
+		b = c;
+		c = a + b;
+		if (counter < 50)
 		{
 			printf(", ");
 		}
-		i++;
 	}
-	putchar('\n');
+	printf("\n");
 	return (0);
 }
