@@ -23,6 +23,6 @@ int _atoi(char *s)
 		else if (brk == 1)
 			break;
 	}
-	res = sig *res;
+	res = sig * res;
 	return (res);
 }
