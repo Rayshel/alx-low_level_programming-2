@@ -5,9 +5,7 @@
 
 /**
  * _is_zero - determines if any number is zero
- * @argv: argument values
- * isn1: first number
- * isn2: second number
+ * @argv: argument vector.
  *
  * Return: no return.
  */
@@ -36,10 +34,10 @@ void _is_zero(char *argv[])
 
 /**
  * _initialize_array - set memery to zero in a new array
- * @ar: array of character
- * @lar: length of the character array.
+ * @ar: char array.
+ * @lar: length of the char array.
  *
- * Return: pointer of a character array.
+ * Return: pointer of a char array.
  */
 char *_initialize_array(char *ar, int lar)
 {
@@ -54,7 +52,7 @@ char *_initialize_array(char *ar, int lar)
 /**
  * _checknum - determines length of the number
  * and checks if number is in base 10.
- * @argv: arguments value
+ * @argv: arguments vector.
  * @n: row of the array.
  *
  * Return: length of the number.
@@ -73,10 +71,10 @@ int _checknum(char *argv[], int n)
 }
 
 /**
- * main - runs the code
+ * main - Entry point.
  * program that multiplies two positive numbers.
  * @argc: number of arguments.
- * @argv: arguments value
+ * @argv: arguments vector.
  *
  * Return: 0 - success.
  */
